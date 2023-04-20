@@ -1,8 +1,8 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * main-Entry point 
  *
- * Return:Always O(Success)
+ * Return: Always O(Success)
  */
 int main(void)
 {
