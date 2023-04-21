@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
-*Main - main  Entry point
+*Main - main must be Entry point
+*
 *Return : Always O (success)
 */
 int main(void)
