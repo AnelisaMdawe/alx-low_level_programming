@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* Main - Main Entry point
+* Main - Entry point
 *
 * Return: Always O (success)
 */
