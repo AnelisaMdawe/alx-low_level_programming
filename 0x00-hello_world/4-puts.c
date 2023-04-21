@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * Main - main must be Entry point
- *
- * Return : Always O (success)
+* Main - Main Entry point
+*
+* Return: Always O (success)
 */
 int main(void)
 {
-        puts("\"Programming is like building a multilingual puzzle");
+		printf("\"Programming is like building a multilingual puzzle");
 
-        return (0);
+		return (0);
 }
