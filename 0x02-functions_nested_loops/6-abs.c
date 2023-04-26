@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * abs - computers the absolute value of an interger
+ * _abs - computers the absolute value of an interger
  * @n: the int to check
  * Return: the absolut value of in
  */
-int abs(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 	{
