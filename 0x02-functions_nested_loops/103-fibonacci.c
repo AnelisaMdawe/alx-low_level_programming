@@ -6,22 +6,25 @@
  */
 int main(void)
 {
-	int i;
+	unsigned long  j = 0, k = 1, sum;
+	float tot_sum;
 
-	unsigned long int j, k, next, sum;
-
-	j = 1;
-	k = 2;
-	sum = 0
-		for (i = 1 <= 33; ++i)
+		while (1)
 		{
-		if (j < 4000000 && (j % 2) == 0
-			{
-				sum = sum + j;
-			}
+			sum = j + k;
+
+		if (j > 4000000)
+		       	break;
+		if ((j % 2) == 0)
+			tot_sum += j;
+
+			j = k;
+			j = sum;
 			next = j + k;
 			j = k;
 			k = next;
 		}
-		printf("%lu\n");
+		printf("%lu\n", sum);
+
+		return (0);
 }
