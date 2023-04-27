@@ -20,9 +20,9 @@ int main(void)
 		if ((fibsum % 2) == 0)
 			tot_sum += fibsum;
 
-			fib1 = fib2;
-			fib2 = fibsum;
+		fib1 = fib2;
+		fib2 = fibsum;
 	}
-	printf("%lu\n", tot_ sum);
+	printf("%lu\n", tot_sum);
 	return (0);
 }
