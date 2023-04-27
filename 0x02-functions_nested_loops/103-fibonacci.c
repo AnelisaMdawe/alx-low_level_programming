@@ -23,6 +23,6 @@ int main(void)
 		fib1 = fib2;
 		fib2 = fibsum;
 	}
-	printf("%lu\n", tot_sum);
+	printf("%lu\n");
 	return (0);
 }
