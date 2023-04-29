@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- * print_number - prints an interger
+ * print_number - prints an integer
+ *
  * @n: interger to be printed
  */
 void print_number(int n)
@@ -11,7 +12,7 @@ void print_number(int n)
 	{
 		n1 = -n;
 
-		_putchar(' ');
+		_putchar('-');
 	}
 	else
 	{
