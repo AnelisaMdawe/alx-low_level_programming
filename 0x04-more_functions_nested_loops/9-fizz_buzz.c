@@ -4,7 +4,7 @@
  * main - prints the numbers fro 1 to 100
  * followed by a new line
  * multiplication of three prints fizz and five prints buzz
- * Return: alwayz 0
+ * Return: always 0
  */
 int main(void)
 {
