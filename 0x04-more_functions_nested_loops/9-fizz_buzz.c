@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - prints the numbers fro 1 to 100
+ * main - prints the numbers from 1 to 100
  * followed by a new line
- * multiplication of three prints fizz and five prints buzz
+ * multiplication of three prints Fizz and five prints Buzz
  * Return: always 0
  */
 int main(void)
@@ -23,7 +23,7 @@ int main(void)
 
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf(" FizzBuzz");
+			printf("FizzBuzz");
 		}
 		else if (i == 1)
 		{
