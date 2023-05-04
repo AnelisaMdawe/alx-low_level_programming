@@ -25,8 +25,8 @@ void rev_string(char *n)
 }
 /**
  * infinite_add - add 2 numbers together
- * @n1: text representation of first number to add
- * @n2: text represantation of second number to add
+ * @n1: text representation of 1st number to add
+ * @n2: text represantation of 2nd number to add
  * @r: pointer to buffer
  * @size_r: buffer size
  * Return: pointer to call a function
