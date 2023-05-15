@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "main.h"
 /**
  * _strncpy - copy the string

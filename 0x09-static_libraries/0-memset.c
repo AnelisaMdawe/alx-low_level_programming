@@ -1,4 +1,3 @@
-#!/bin/bash
 #include "main.h"
 /**
  * _memset - fill the first byte of memory with a specified value
