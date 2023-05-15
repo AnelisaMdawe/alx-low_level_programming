@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-int _putchar(char c);
+void _puts(char *str);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
@@ -20,4 +20,6 @@ char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
+int _putchar(char c);
+int main(void);
 #endif
