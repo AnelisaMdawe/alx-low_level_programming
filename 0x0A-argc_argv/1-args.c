@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	(void) argv;
+	(void) argv;/*argv is ignored*/
 
 	printf("%d\n", argc - 1);
 

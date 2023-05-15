@@ -3,9 +3,9 @@
 #include <ctype.h>
 #include <string.h>
 /**
- * check_num - checking if string is there are digit
+ * check_num - checking if string are digit
  * @str: array str
- * Return: 0 (success)
+ * Return: Always 0 (success)
  */
 int check_num(char *str)
 {
