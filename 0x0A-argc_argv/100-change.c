@@ -7,7 +7,7 @@
  * change for an amount of money where cents are given back
  * @argc: number of arguments
  * @argv: array of arguments
- *return: 0 (success), 1 (error)
+ *return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 2)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 	}
 
