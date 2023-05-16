@@ -4,7 +4,7 @@
 
 /**
  * main - prints the minimum number of coins to make
- * change for an amount of money
+ * change for an amount of money where cents are given back
  * @argc: number of arguments
  * @argv: array of arguments
  *return: 0 (success), 1 (error)
