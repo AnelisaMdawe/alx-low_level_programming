@@ -9,13 +9,14 @@
  */
 int check_num(char *str)
 {
+	/*Declaring variables*/
 	unsigned int count;
 
 	count = 0;
 
-	while (count < strlen(str))
+	while (count < strlen(str)) /*counting string*/
 	{
-		if (!isdigit(str[count]))
+		if (!isdigit(str[count])) /*check if str are digit*/
 		{
 			return (0);
 		}
@@ -33,17 +34,18 @@ int check_num(char *str)
  */
 int main(int argc, char *argv[])
 {
+	/*Declare variable*/
 	int count;
 	int str_to_int;
 	int sum = 0;
 
 	count = 1;
 
-	while (count < argc)
+	while (count < argc) /*it goes through te whole array*/
 	{
 		if (check_num(argv[count]))
 		{
-			str_to_int = atoi(argv[count]);
+			str_to_int = atoi(argv[count]); /*ATOI --> convert a string to int*/
 			sum += str_to_int;
 		}
 		else
@@ -55,7 +57,7 @@ int main(int argc, char *argv[])
 		count++;
 	}
 
-	printf("%d\n", sum);
+	printf("%d\n", sum); /*prinnts the sum*/
 
 	return (0);
 }
